@@ -4,7 +4,7 @@
 import nltk.tag, nltk.data
 #path to the already existing tagger: nltk_data/taggers/maxent_treebank_pos_tagger/english.pickle
 #Find it by searching in your computer where you downloaded the nltk package.
-#If not found then download from here http://www.nltk.org/data.html and then give path to english.pickle
+#If not found then download by running 'nltk.download()' and you will get a pop up window, download all.
 path='PUT YOUR PATH HERE'
 default_tagger = nltk.data.load(path)
 model = {'select': 'VB', 'important': 'JJ'} #add your custom tags
